@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>bt5</title>
+</head>
+<body>
+	<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p> </p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>meta name="viewport"</h3>
+      <p>
+meta name="viewport" এর ব্যাখ্যা
+
+HTML–এ meta ট্যাগ ব্যবহার করা হয় ওয়েবপেজ সম্পর্কে প্রয়োজনীয় তথ্য ব্রাউজারকে জানানোর জন্য।
+এই তথ্যগুলো ওয়েবপেজে সরাসরি দেখা যায় না, কিন্তু ব্রাউজার এই তথ্য অনুযায়ী পেজটি কিভাবে প্রদর্শন করবে তা নির্ধারণ করে।
+
+name="viewport" দ্বারা বোঝানো হয় যে এই meta tag–টি ডিভাইসের viewport বা স্ক্রিনের দৃশ্যমান অংশের জন্য ব্যবহার করা হয়েছে।
+Viewport বলতে ডিভাইসের সেই অংশকে বোঝায় যেখানে ওয়েবপেজটি দেখা যায়।
+
+এই meta tag ব্রাউজারকে জানায় যে বিভিন্ন ডিভাইস যেমন মোবাইল, ট্যাবলেট ও কম্পিউটারের স্ক্রিন সাইজ অনুযায়ী ওয়েবপেজটি কিভাবে মানিয়ে নেবে।
+এর ফলে ওয়েবসাইট responsive হয় এবং মোবাইল ডিভাইসে ঠিকভাবে দেখা যায়।
+
+সংক্ষেপে বলা যায়,
+meta name="viewport" ব্রাউজারকে নির্দেশ দেয় স্ক্রিনের আকার অনুযায়ী ওয়েবপেজ প্রদর্শনের নিয়ম অনুসরণ করার জন্য।</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>content="width=device-width,</h3>
+      <p>  নির্দেশ করে যে ওয়েবপেজের প্রস্থ (width) ডিভাইসের স্ক্রিনের সমান হবে। অর্থাৎ, ওয়েবপেজ মোবাইল, ট্যাবলেট বা কম্পিউটারের স্ক্রিন অনুযায়ী নিজে থেকেই মানিয়ে নেয়। এটি ব্যবহার করলে ওয়েবসাইট মোবাইলে ছোট হয়ে যায় না এবং অতিরিক্ত zoom করতে হয় না। উদাহরণস্বরূপ, যদি মোবাইলের স্ক্রিনের প্রস্থ 360px হয়, তাহলে ওয়েবপেজের প্রস্থও স্বয়ংক্রিয়ভাবে 360px হবে। একইভাবে, ল্যাপটপের স্ক্রিন 1366px হলে ওয়েবপেজের প্রস্থও 1366px হবে। এই সেটিং ব্যবহার করলে ওয়েবসাইট সব ধরনের ডিভাইসে সুন্দরভাবে এবং সঠিক আকারে প্রদর্শিত হয়।</p>
+       
+    </div>
+    <div class="col-sm-4">
+      <h3>initial-scale=1</h3>        
+      <p> নির্দেশ করে যে ওয়েবপেজ প্রথমে 100% zoom অবস্থায় খুলবে। অর্থাৎ, পেজটি ডিফল্ট আকারে দেখাবে, কোন অতিরিক্ত zoom-in বা zoom-out ছাড়া। এখানে 1 মানে normal size, 2 হলে double zoom এবং 0.5 হলে অর্ধেক zoom। এটি ব্যবহার করলে মোবাইল বা ট্যাবলেটে লেখা, ছবি এবং অন্যান্য উপাদান ঠিকভাবে দেখা যায় এবং ওয়েবসাইট ব্যবহারকারীর জন্য সুবিধাজনক থাকে। ফলে ওয়েবসাইট সব ধরনের ডিভাইসে পরিষ্কার, সুন্দর এবং ব্যবহারযোগ্যভাবে প্রদর্শিত হয়।</p>
+    </div>
+  </div>
+</div> 
+ 	
+<!--js link-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>	 
+</body>
+</html>
